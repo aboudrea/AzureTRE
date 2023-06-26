@@ -1,13 +1,13 @@
 ---
 # After you have replaced all the __CHANGE_ME__ values in this file, you need to
 # run `make auth` to setup the Auth.
-tre_id: abbtwgovtre
+tre_id: abgovtre
 location: westus
 management:
-  mgmt_resource_group_name: abbtwgovtremgmt
-  mgmt_storage_account_name: abbtwgovtreadls
-  terraform_state_container_name: abbtwgovtfstate
-  acr_name: abbtwgovtrehealthacr
+  mgmt_resource_group_name: abgovtremgmt
+  mgmt_storage_account_name: abgovtreadls
+  terraform_state_container_name: abgovtfstate
+  acr_name: abgovtrehealthacr
   # Azure Resource Manager credentials used for CI/CD pipelines
   arm_subscription_id: 5f411e87-6a88-4ea7-a66b-4baab8a31647
 
