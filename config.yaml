@@ -2,7 +2,7 @@
 # After you have replaced all the __CHANGE_ME__ values in this file, you need to
 # run `make auth` to setup the Auth.
 tre_id: abbtwgovtre
-location: canadacentral
+location: westus
 management:
   mgmt_resource_group_name: abbtwgovtremgmt
   mgmt_storage_account_name: abbtwgovtreadls
