@@ -1,15 +1,15 @@
 ---
 # After you have replaced all the __CHANGE_ME__ values in this file, you need to
 # run `make auth` to setup the Auth.
-tre_id: abgovtre
-location: westus
+tre_id: abgov99tre
+location: westus2
 management:
-  mgmt_resource_group_name: abgovtremgmt
-  mgmt_storage_account_name: abgovtreadls
-  terraform_state_container_name: abgovtfstate
-  acr_name: abgovtrehealthacr
+  mgmt_resource_group_name: abgov99tremgmt
+  mgmt_storage_account_name: abgov99treadls
+  terraform_state_container_name: abgov99tfstate
+  acr_name: abgov99trehealthacr
   # Azure Resource Manager credentials used for CI/CD pipelines
-  arm_subscription_id: 5f411e87-6a88-4ea7-a66b-4baab8a31647
+  arm_subscription_id: c521d86c-b963-4d4c-8561-3d2d047ace51
 
   # If you want to override the currently signed in credentials
   # You would do this if running commands like `make terraform-install DIR=./templates/workspaces/base`
@@ -43,7 +43,7 @@ tre:
   # tre_url: __CHANGE_ME__
 
 authentication:
-  aad_tenant_id: a4f001a2-3159-4527-9d9f-3e5c4a0795ae
+  aad_tenant_id: 7e2155c4-bbc4-4fab-99bf-e7d2fa5ea1cf
   # Setting AUTO_WORKSPACE_APP_REGISTRATION to false will:
   # create an identity with `Application.ReadWrite.OwnedBy`.
   # Setting AUTO_WORKSPACE_APP_REGISTRATION to true will:
